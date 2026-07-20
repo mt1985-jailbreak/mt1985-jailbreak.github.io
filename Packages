@@ -1,22 +1,3 @@
-Package: com.ichitaso.quickcc
-Version: 1.1.4
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Installed-Size: 409
-Depends: firmware (>= 11.0), firmware (<< 13.0), mobilesubstrate, preferenceloader (>= 2.2.4~beta1)
-Filename: debians/QuickCC.deb
-Size: 88438
-MD5sum: c32b8e93c4455665a37ec570c64134ac
-SHA1: d57aded4508230bba6d28a54ebb06cbf7b71bf55
-SHA256: dc7e32f069df89d2a9ee31ca24671adf0a9c82c5909b0867d0ff16ddff25393a
-Section: Trung tâm điều khiển
-Description: Chuyển đổi Wifi và Bluetooth nhanh chóng trong Trung tâm điều khiển
-Tag: purpose::extension, compatible::ios11, compatible::ios12
-Author: ichitaso <willfeeltips+qcc@gmail.com>
-Dev: ichitaso
-Icon: file:///Library/PreferenceBundles/QuickCCSettings.bundle/icon@3x.png
-Name: QuickCC
-
 Package: com.ikilledappl3.sareth
 Version: 1.17.2
 Architecture: iphoneos-arm
@@ -24,7 +5,7 @@ Maintainer: Minh Tuấn Repo
 Depends: mobilesubstrate, preferenceloader, firmware (>= 12.0), ws.hbang.common
 Conflicts: com.ikilledappl3.ccwallcustomizer2, com.ikilledappl3.colormyccmodules
 Replaces: com.ikilledappl3.ccwallcustomizer2, com.ikilledappl3.colormyccmodules
-Filename: debians/Sareth.deb
+Filename: debs/Sareth.deb
 Size: 2894120
 MD5sum: 5b659aabc1dddf745a7a55f271ee6433
 SHA1: 37a47097cc95e3fa13e2fdb4cb69ea08e9e78071
@@ -36,137 +17,30 @@ Author: iKilledAppl3
 Icon: file:///Library/PreferenceBundles/Sareth.bundle/Sareth@3x.png
 Name: Sareth VH
 
-Package: com.laughingquoll.prefixui
-Version: 1.3.2
+Package: mt-jailbreak.cydownvn
+Version: 7.1.2
 Architecture: iphoneos-arm
 Maintainer: Minh Tuấn Repo
-Installed-Size: 204
-Depends: firmware (<< 12.0) | ws.hbang.alderis (>= 1.1), firmware (>= 12.0) | org.thebigboss.libcolorpicker, com.spark.libsparkapplist
-Filename: debians/Prefixui.deb
-Size: 41890
-MD5sum: e5fdb1b287a49ae99380ff3f0d62dca7
-SHA1: 4b5f2f9ca18a3513e14a8e412b64200b70ee64b0
-SHA256: 963d7019990362c03df21c61e69fb542826223a0e54039cae121b45d118c6d31
-Section: System
-Description: An awesome framework of some sort!
-Tag: role::developer, compatible_min::ios11.0
-Author: LaughingQuoll <me@laughingquoll.net>
-Depiction: https://chariz.com/get/prefixui
-Icon: https://chariz.com/cdn/icon/prefixui/icon@3x.png
-Name: PrefixUI
-
-Package: com.laughingquoll.prysm
-Version: 1.9.2
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Depends: mobilesubstrate, com.laughingquoll.prefixui, com.opa334.ccsupport
-Conflicts: com.laughingquoll.prysm
-Filename: debians/Prysm.deb
-Size: 1076280
-MD5sum: c71d0f86f28bda968be737f45db1ad36
-SHA1: 3ec5465307feeccad4e4fb0c9d8b9e494bc8ad3f
-SHA256: 9d807e78ed5cb3269902698cce24971afeb2af2101032ab4be9f23da67a6cee2
-Section: Tweaks
-Homepage: https://mt-jailbreak.github.io
-Description: Trung tâm điều khiển hoàn toàn mới.
-Author: LaughingQuoll
-Icon: file:///Library/PreferenceBundles/PrysmPrefs.bundle/icon@3x.png
-Name: Prysm
-
-Package: com.matchstic.xenhtml
-Version: 4.1~release
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader, firmware (>= 11.0) | com.unlimapps.uaunbox, com.rpetrich.rocketbootstrap
-Provides: com.groovycarrot.groovylock, com.bushe.lockhtml4, com.bushe.lockhtml3, com.bushe.lockhtml2, cydget, com.groovycarrot.sbhtml, com.junesiphone.xeninfo, com.modmyi.widgetweather3, com.matchstic.infostats2, com.matchstic.infostats
-Filename: debians/XenHTML.deb
-Size: 3776264
-MD5sum: eb49d92f0d78a503978ab31ecd106d07
-SHA1: 405c1aa7aa09ec6385de90dc069b00a8c92b1ee7
-SHA256: ef40f0660d5b7661b16dee67c7cb960b79b012204f1ca1b1550513159170fa0a
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Conflicts: com.julioverne.cydown
+Filename: debs/Cydown.deb
+Size: 4302064
+MD5sum: 6a2cad438c006e640d6f00d80594e88e
+SHA1: 9c1ee61c11788cbe36d96a4656ad865f8888180f
+SHA256: 3e3180ada8d14ea81914dc4634e10cba4557f89af55bf53f6ca8491c658989a4
 Section: Tinh chỉnh Việt hoá
-Priority: optional
-Description: Thêm tiện ích lên Màn hình chính & Màn hình khoá
-Author: Matt Clarke
-Dev: Matt Clarke
-Icon: file:///Library/PreferenceBundles/XenHTMLPrefs.bundle/Icon@3x.png
-Name: XenHTML VH
-
-Package: com.spark.libsparkapplist
-Version: 1.1.10
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Installed-Size: 404
-Filename: debians/Libsparkapplist.deb
-Size: 55024
-MD5sum: 4bdf6ac7e13636ecc62605c758c9effe
-SHA1: d4dd6006b1567dfbbd1e453770c3d3b0c098b79f
-SHA256: 76d6c8b48cbcdafe2986ff7caca97c38e218cfa8311bc49350394cb6a833220a
-Section: System
-Description: AppList alternative
-Tag: role::developer
-Author: Spark
-Name: libSparkAppList
-
-Package: com.vitataf.homegesture
-Version: 2.1.5
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.creaturecoding.libcspreferences, com.creaturesurvive.libcscolorpicker, org.thebigboss.libcolorpicker
-Filename: debians/HomeGesture.deb
-Size: 2297294
-MD5sum: 5989417f1258c8d9794885b82e64622f
-SHA1: 9fad3bb7bdbd220f16de6fd0fd9a7c9dab5a1bf7
-SHA256: e9001ec170ea225cdaddee940953b6165ad6afdb08a48c4058d52ac64cd81d85
-Section: Tinh chỉnh Việt hoá
-Description: Cử chỉ iPhone X cho thiết bị đời thấp
-Author: VitaTaf
-Icon: file:///Library/PreferenceBundles/HomeGesture.bundle/icon@3x.png
-Name: HomeGesture VH
-
-Package: jp.soh.reprovision
-Version: 0.9.0
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Depends: firmware (>= 9.0)
-Conflicts: com.matchstic.reprovision
-Filename: debians/ReProvissionR.deb
-Size: 16789240
-MD5sum: d62d4f3dc89bc55aab313470eae80a68
-SHA1: 4a4c03ee793657990f614edc92794a43927bcd23
-SHA256: fd30ae89ed027c3073ffc30e7a43b8bb343e422a90c0151225912c05c9d267ae
-Section: Tweaks
-Priority: optional
-Description: Đăng ký lại các ứng dụng trên thiết bị của bạn
-Author: Soh Satoh, Matt Clarke
-Dev: Matt Clarke
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Name: ReProvision Reborn
-
-Package: mt-jailbeak.filza
-Version: 4.0.1-2
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Installed-Size: 34948
-Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
-Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
-Filename: debians/Filza.deb
-Size: 13940128
-MD5sum: f245aa8df66a482e6bf2f478c6e016af
-SHA1: 2a4c53c302044cea49a6e1be0fdb49859135614a
-SHA256: d370951efa01033929b3dff4e985275f333402aa6e5cbd27bf0aa3a8566efa75
-Section: Tinh chỉnh Việt hoá
-Description: Trình quản lý tệp cho iPhone, iPad, iPod Touch. Hỗ trợ iOS 7+
-Author: TIGI Software
-Icon: file:///Applications/Filza.app/AppIcon60x60@3x.png
-Name: Filza File Manager VH
+Homepage: https://mt-jailbreak.github.io/repo
+Description: Trình quản lý nâng cao hơn dành cho Cydia. Bẻ khoá các tinh chỉnh ở các nguồn khác nhau, sao lưu & khôi phục các nguồn và tinh chỉnh trực tuyến, chặn quảng cáo và nhiều chức năng khác!
+Author: julioverne
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/cydia@2x.png
+Name: CyDown VH
 
 Package: mt-jailbreak.ChargeAnimations
 Version: 3.2
 Architecture: iphoneos-arm
 Maintainer: Minh Tuấn Repo
 Depends: mt-jailbreak.cracktool4 | com.julioverne.cracktool4, firmware (>= 5.0), mobilesubstrate, com.rpetrich.rocketbootstrap, preferenceloader, org.thebigboss.libcolorpicker | me.nepeta.libcolorpicker
-Filename: debians/ChargeAnimations.deb
+Filename: debs/ChargeAnimations.deb
 Size: 24851304
 MD5sum: dd5b1ed96c801a54153dbed74748eb3e
 SHA1: 1e392c8fbbac19720fb8b08cd6f25bb00f8d7e0f
@@ -182,7 +56,7 @@ Version: 2.2.1
 Architecture: iphoneos-arm
 Maintainer: Minh Tuấn Repo
 Depends: mt-jailbreak.cracktool4 | com.julioverne.cracktool4, firmware (>= 10.0), mobilesubstrate, com.rpetrich.rocketbootstrap, applist
-Filename: debians/PullOverPro.deb
+Filename: debs/PullOverPro.deb
 Size: 1521714
 MD5sum: eba8cf87d7fbbed52128824c5a70a045
 SHA1: d98dc40bab45ebc5a2985bbff253a59c92b194d9
@@ -193,36 +67,13 @@ Author: c1d3r
 Icon: file:///Library/PreferenceBundles/PullOverProPreferences.bundle/PullOverProPreferencesIcon@2x.png
 Name: PullOver Pro VH
 
-Package: mt-jailbreak.SnowBoard
-Version: 1.4.20~Beta5
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Depends: mobilesubstrate, preferenceloader
-Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
-Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
-Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
-Filename: debians/SnowBoard.deb
-Size: 3814850
-MD5sum: a56148b3b7e23284a766bab48acc0ae4
-SHA1: eba06979b4e1a7888c294f9dd9bde9ab3ca2b5a7
-SHA256: df6875cfda68a74d3674d53c89e56258a7b072483bcf55c5161db97b193f4b23
-Section: Tinh chỉnh Việt hoá
-Homepage: https://mt-jailbreak.github.io/repo
-Description: Thay thế chủ đề theo ý bạn
-Tag: role::enduser
-Author: Spark
-Icon: file:///Library/PreferenceBundles/SnowboardPrefs.bundle/icon@3x.png
-Name: SnowBoard VH
-Someotherentrytocontrol: True
-Tags: compatible_min::ios7.0, compatible_max::ios14.8.1
-
 Package: mt-jailbreak.axon
 Version: 1.5
 Architecture: iphoneos-arm
 Maintainer: Minh Tuấn Repo
 Depends: mobilesubstrate, firmware (>= 11.0)
 Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
-Filename: debians/Axon.deb
+Filename: debs/Axon.deb
 Size: 200182
 MD5sum: 3413e55dee1dfd3f8fef07d75f974f83
 SHA1: 2d1078924ed94a60965ab837a0052268ed6dd1db
@@ -238,7 +89,7 @@ Version: 1.7
 Architecture: iphoneos-arm
 Maintainer: Minh Tuấn Repo
 Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist
-Filename: debians/Badgomizer.deb
+Filename: debs/Badgomizer.deb
 Size: 421110
 MD5sum: 4c4b7d8b5f68aa86f96c1363de969ec2
 SHA1: 0d1c144d634245d0151eda7cbf6daa93c7243630
@@ -251,27 +102,12 @@ Dev: merdok
 Icon: file:///Library/PreferenceBundles/badgomizerprefs.bundle/badgomizer@2x.png
 Name: Badgomizer VH
 
-Package: mt-jailbreak.ccmodules
-Version: 1.5-2
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Filename: debians/CCModules.deb
-Size: 1497874
-MD5sum: f086d40a687fd8f55bc38cd5fe93344c
-SHA1: a3a903689e156b74c557f5bc24c01eddec615957
-SHA256: 54202bfface3b45d3edd6d87973b1e639951e39ba922dc136244535dc6168f98
-Section: Trung tâm điều khiển
-Description: Thêm Mô-đun cho trung tâm điều khiển cho iOS 11-15.
-Author: jailbreak365
-Icon: file:///Applications/Cydia.app/Sections/Addons.png
-Name: CCModules VH
-
 Package: mt-jailbreak.centaur
 Version: 2.0
 Architecture: iphoneos-arm
 Maintainer: Minh Tuấn Repo
 Depends: mobilesubstrate, preferenceloader, com.creaturesurvive.libcscolorpicker, ws.hbang.common (>= 1.11)
-Filename: debians/Centaur.deb
+Filename: debs/Centaur.deb
 Size: 449420
 MD5sum: 14731450181133e09f3e200756488cf4
 SHA1: 898600943674672934315ec18a1da54aef449288
@@ -282,82 +118,30 @@ Author: Muirey03
 Icon: file:///Library/PreferenceBundles/Centaur.bundle/Icon@2x.png
 Name: Centaur VH
 
+Filename: debs/Cracktool4.deb
+Size: 2957364
 Package: mt-jailbreak.cracktool4
 Version: 4.1
-Architecture: iphoneos-arm
+Section: Tweaks
 Maintainer: Minh Tuấn Repo
+Homepage: https://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool4
+Description: Trình kích hoạt bản quyền!
 Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
 Conflicts: com.julioverne.cracktool4
-Filename: debians/Cracktool4.deb
-Size: 2957364
+Architecture: iphoneos-arm
+Name: CrackTool4 (iOS 9 - 14)
+Author: julioverne
+Icon: file:///Applications/CrackTool4.app_/Icon.png
 MD5sum: 439dca67cafed3329e0617d437a01fc1
 SHA1: 0114a2adacc4159dbd62437eeee2e2900a9d144c
 SHA256: a2d5de9425ceb395572dc2d7da6c2f336cd46c1cdd29b41f62861bacf0588d5d
-Section: Utilities
-Homepage: https://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool4
-Description: Trình kích hoạt bản quyền!
-Author: julioverne
-Icon: file:///Applications/Cydia.app/Sections/tienich.png
-Name: CrackTool4 (iOS 9 - 14)
-
-Package: mt-jailbreak.cydownvn
-Version: 7.1.2
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
-Conflicts: com.julioverne.cydown
-Filename: debians/Cydown.deb
-Size: 4302064
-MD5sum: 6a2cad438c006e640d6f00d80594e88e
-SHA1: 9c1ee61c11788cbe36d96a4656ad865f8888180f
-SHA256: 3e3180ada8d14ea81914dc4634e10cba4557f89af55bf53f6ca8491c658989a4
-Section: Tinh chỉnh Việt hoá
-Homepage: https://mt-jailbreak.github.io/repo
-Description: Trình quản lý nâng cao hơn dành cho Cydia. Bẻ khoá các tinh chỉnh ở các nguồn khác nhau, sao lưu & khôi phục các nguồn và tinh chỉnh trực tuyến, chặn quảng cáo và nhiều chức năng khác!
-Author: julioverne
-Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/cydia@2x.png
-Name: CyDown VH
-
-Package: mt-jailbreak.fbads
-Version: 1.0.0
-Architecture: iphoneos-arm
-Maintainer: Biện Văn Nhật
-Depends: mobilesubstrate
-Filename: debians/FbNoAds.deb
-Size: 11958
-MD5sum: a2d3be7f41aa36ebd894dc1cb7388d25
-SHA1: 1bd4c87a2f32c074d71d5412fd9349ff4f439bda
-SHA256: d0bf3736b6a91d0ed94f80b4286a3fc20439fa939a2ee7152d93f45ceeb9424e
-Section: Tweaks
-Description: Xoá tất cả mọi quảng cáo Facebook
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Name: Chặn Quảng Cáo Facebook
-
-Package: mt-jailbreak.folderautoclose10
-Version: 12.0
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Installed-Size: 99
-Depends: mobilesubstrate, firmware (>= 10.0)
-Filename: debians/FolderAutoClose.deb
-Size: 4752
-MD5sum: 8dbf70b54f4f0dbf19c587f39578dba1
-SHA1: 04d4eaea73c2fd2f0f9c7348f350b32eef32bcc1
-SHA256: edbea3af0dd66718bb8b0fbbd529a13cc3458c27d2cc2dc1b68b230cbf982146
-Section: Tweaks
-Priority: optional
-Description: Tự động đóng thư mục sau khi mở ứng dụng.
-Tag: purpose::extension, compatible::ios10, compatible::ios11, compatible::ios12
-Author: yuripeyamashita <yuripe.dev@gmail.com>
-Dev: yuripeyamashita
-Name: FolderAutoClose
 
 Package: mt-jailbreak.homeplus
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Minh Tuấn Repo
 Depends: mobilesubstrate, preferenceloader
-Filename: debians/HomePlus.deb
+Filename: debs/HomePlus.deb
 Size: 1314788
 MD5sum: 10641cd557fc36b3f93f1ffb3a716e2a
 SHA1: 33a1ebbe4ee200420dcac3544b8de1f2c6cc8bc8
@@ -369,56 +153,6 @@ Author: Kritanta
 Icon: file:///Library/PreferenceBundles/HomePlusPrefs.bundle/icon@2x.png
 Name: HomePlus VH
 
-Package: mt-jailbreak.icleanerpro
-Version: 7.10.0
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Depends: firmware (>= 4.0), findutils, apt | apt7
-Conflicts: org.altervista.exilecom.icleaner
-Replaces: org.altervista.exilecom.icleaner
-Filename: debians/iCleanerPro.deb
-Size: 2155986
-MD5sum: e0a73f0be19c86777ded37ee30b75ef8
-SHA1: 876a8d02dfdbfe6521a4ccfe3e9360c1dbb28248
-SHA256: 8439f4c50a8a00ede97a576359ee5afafb8c57989e0ab620d05aab22a0db6266
-Section: Tinh chỉnh Việt hoá
-Description: Trình dọn dẹp và tối ưu hóa hệ thống iOS tốt nhất.
-Author: Ivano Bilenchi
-Icon: file:///Applications/iCleaner.app/Icon-60@2x.png
-Name: iCleaner Pro VH
-
-Package: mt-jailbreak.keyboardplus
-Version: 2.1
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
-Filename: debians/KeyboardPlus.deb
-Size: 429686
-MD5sum: e1296bbbba9568bb6ea6c2447d2d9e92
-SHA1: b35bda26bd0c85e8e9ae4311ba36795daa796af4
-SHA256: 150cd3cc3265e4217fa988c9a315d5516f78c30e180699a40e2b3136c92cac7b
-Section: Tinh chỉnh Việt hoá
-Description: Bổ sung các tính năng cho bàn phím của bạn!
-Author: Ryan Nair
-Icon: file:///Library/PreferenceBundles/KeyboardPlus.bundle/icon@2x.png
-Name: KeyboardPlus VH
-
-Package: mt-jailbreak.killallapps
-Version: 3.3.0
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Depends: mobilesubstrate, preferenceloader, applist, mt-jailbreak.libhdev (>= 4.6.0), firmware (>= 12)
-Filename: debians/KillAllApps.deb
-Size: 62794
-MD5sum: 808b35e1b47e815ae79ac1c4c361270a
-SHA1: a2fc35fcbd9d7207df243b90bce961a49b98d9d4
-SHA256: a8627f7c7d18426aede94523a96c42e175bf05e36a378b4bc6f3f9df38344dc9
-Section: Tinh chỉnh Việt hoá
-Description: Vuốt xuống trong bộ chuyển đổi ứng dụng để đóng tất cả các ứng dụng nền với đa nhiệm kiểu iPad
-Author: Hao Nguyen
-Icon: file:///Library/PreferenceBundles/KAAPref.bundle/icon@2x.png
-Name: Kill All Apps VH
-
 Package: mt-jailbreak.libactivator
 Version: 2.0
 Architecture: iphoneos-arm
@@ -426,7 +160,7 @@ Maintainer: Minh Tuấn Repo
 Depends: mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.a3tweaks.flipswitch (>= 1.0.16~rc3), com.rpetrich.rocketbootstrap (>= 1.0.9)
 Conflicts: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), sbsettings (<= 3.0.6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, libhide (<< 2.4.1), com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
 Replaces: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
-Filename: debians/Activator.deb
+Filename: debs/Activator.deb
 Size: 1267576
 MD5sum: 1206d38a3c27499bd9ea9402cf53d04b
 SHA1: dcaf305c0f21aab0620f00d6950481912d5e0374
@@ -439,13 +173,254 @@ Dev: rpetrich
 Icon: file:///Applications/Activator.app/Icon-Small-modern@2x.png
 Name: Activator VH
 
+Package: mt-jailbreak.nicebarx
+Version: 3.1
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Installed-Size: 11544
+Depends: com.rpetrich.rocketbootstrap,mobilesubstrate
+Filename: debs/NiceBarX.deb
+Size: 3043004
+MD5sum: abb6d1b1c284eb3370e9c1e061ddfd9c
+SHA1: ad947652939e808629d2a8ab64b1f692e39c93d1
+SHA256: da39b4d4481f1ae5260af77fbb3c44062c99488b056cb04bd367ca5953a28da5
+Section: Tinh chỉnh Việt hoá
+Homepage: https://repo.niceios.com/
+Description: Thanh trạng thái dành cho thiết bị giả iPhone X (Miễn phí cho iOS 11-12)
+Author: niceios
+Icon: file:///Library/PreferenceBundles/nicebarxbundle.bundle/icon.png
+Name: NiceBarX VH
+
+Package: mt-jailbreak.shuffle
+Version: 1.7
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.cpdigitaldarkroom.placeholder
+Replaces: com.cpdigitaldarkroom.placeholder
+Filename: debs/Shuffle.deb
+Size: 599106
+MD5sum: 6658d442beb19ab74540ab7b9830fef0
+SHA1: fa74091e02248e73c49f6aeb9f0e7ed7a48ec7f4
+SHA256: a5c1d9da72f5d911970209edf923c2dcf5521505ac8fff9039214a237576ff03
+Section: Tinh chỉnh Việt hoá
+Description: Sắp xếp cài đặt của bạn
+Author: CreatureSurvive <support@creaturecoding.com>
+Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
+Name: Shuffle VH
+Tags: compatible_min::ios10, compatible_max::ios15
+
+Package: com.vitataf.homegesture
+Version: 2.1.5
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.creaturecoding.libcspreferences, com.creaturesurvive.libcscolorpicker, org.thebigboss.libcolorpicker
+Filename: debs/HomeGesture.deb
+Size: 2297294
+MD5sum: 5989417f1258c8d9794885b82e64622f
+SHA1: 9fad3bb7bdbd220f16de6fd0fd9a7c9dab5a1bf7
+SHA256: e9001ec170ea225cdaddee940953b6165ad6afdb08a48c4058d52ac64cd81d85
+Section: Tinh chỉnh Việt hoá
+Description: Cử chỉ iPhone X cho thiết bị đời thấp
+Author: VitaTaf
+Icon: file:///Library/PreferenceBundles/HomeGesture.bundle/icon@3x.png
+Name: HomeGesture VH
+
+Package: mt-jailbreak.spotlightless11
+Version: 1.1.7
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
+Filename: debs/Spotlightless11.deb
+Size: 82574
+MD5sum: e569616471effeed8e2a207f8f38e7a0
+SHA1: 7fe0a51c5a651ed883ac9fba7787f77017523ac8
+SHA256: f635df8b523dd5259828fe8564805f124e01528ecc06c57733aea35136aaa9de
+Section: Tinh chỉnh Việt hoá
+Priority: optional
+Homepage: http://mt-jailbreak.github.io/repo
+Description: Loại bỏ Spotlight trên iOS 10 đến 16!
+Tag: purpose::extension
+Author: CydiaGeek
+Dev: lucaluca86
+Icon: file:///Library/PreferenceBundles/Spotlightless11.bundle/Spotlightless11@2x.png
+Name: Spotlightless11 VH
+
+Package: com.matchstic.xenhtml
+Version: 4.1~release
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader, firmware (>= 11.0) | com.unlimapps.uaunbox, com.rpetrich.rocketbootstrap
+Provides: com.groovycarrot.groovylock, com.bushe.lockhtml4, com.bushe.lockhtml3, com.bushe.lockhtml2, cydget, com.groovycarrot.sbhtml, com.junesiphone.xeninfo, com.modmyi.widgetweather3, com.matchstic.infostats2, com.matchstic.infostats
+Filename: debs/XenHTML.deb
+Size: 3776264
+MD5sum: eb49d92f0d78a503978ab31ecd106d07
+SHA1: 405c1aa7aa09ec6385de90dc069b00a8c92b1ee7
+SHA256: ef40f0660d5b7661b16dee67c7cb960b79b012204f1ca1b1550513159170fa0a
+Section: Tinh chỉnh Việt hoá
+Priority: optional
+Description: Thêm tiện ích lên Màn hình chính & Màn hình khoá
+Author: Matt Clarke
+Dev: Matt Clarke
+Icon: file:///Library/PreferenceBundles/XenHTMLPrefs.bundle/Icon@3x.png
+Name: XenHTML VH
+
+Package: mt-jailbreak.SnowBoard
+Version: 1.4.20~Beta5
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: debs/SnowBoard.deb
+Size: 3814850
+MD5sum: a56148b3b7e23284a766bab48acc0ae4
+SHA1: eba06979b4e1a7888c294f9dd9bde9ab3ca2b5a7
+SHA256: df6875cfda68a74d3674d53c89e56258a7b072483bcf55c5161db97b193f4b23
+Section: Tinh chỉnh Việt hoá
+Homepage: https://mt-jailbreak.github.io/repo
+Description: Thay thế chủ đề theo ý bạn
+Tag: role::enduser
+Author: Spark
+Icon: file:///Library/PreferenceBundles/SnowboardPrefs.bundle/icon@3x.png
+Name: SnowBoard VH
+Someotherentrytocontrol: True
+Tags: compatible_min::ios7.0, compatible_max::ios14.8.1
+
+Package: mt-jailbreak.lower
+Version: 1.6
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Depends: mobilesubstrate, firmware (>=11.0)
+Filename: debs/Lower.deb
+Size: 38860
+MD5sum: 77454f7b62bd59c929b49f407b3eb842
+SHA1: 78e872a15943bb28b7936395a3326058fa8584aa
+SHA256: 6c000b6f1f5a483d447adb663b84daddefceb58c5af95e385c0c3d2c1f399d44
+Section: Tinh chỉnh Việt hoá
+Description: Thay đổi chiều cao thông báo và trình phát nhạc.
+Author: s1ris
+Icon: file:///Library/PreferenceBundles/LowerSettings.bundle/Lower@3x.png
+Name: Lower VH
+
+Package: mt-jailbreak.swipeformore
+Version: 1.1.11
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
+Filename: debs/SwipeForMore.deb
+Size: 34332
+MD5sum: f2bd4dda041cb5146890d1e645b66781
+SHA1: 3330e1e9561f783c151f94f51d09884e75e2e8e7
+SHA256: e57e89455cb3f2caeeef4df3327db48eb4a0fe65e50c70111a8f99a3f5291d7c
+Section: Tinh chỉnh Việt hoá
+Homepage: https://mt-jailbreak.githud.io/repo
+Description: Quản lý gói Cydia bằng cử chỉ vuốt
+Author: PoomSmart
+Icon: file:///Library/PreferenceLoader/Preferences/SwipeForMore/SFM@3x.png
+Name: SwipeForMore VH
+
+Package: mt-jailbreak.xb-ccmodules
+Version: 2.2
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Depends: firmware (>= 11), mobilesubstrate, com.opa334.ccsupport, preferenceloader, org.thebigboss.libcolorpicker
+Filename: debs/XB-CCModules.deb
+Size: 1073024
+MD5sum: b83220e7a8ee411540b24b19f634bda7
+SHA1: be582131877fe7a554eb4e3e940843e7b05be2c2
+SHA256: 63f4201c64bde1d9935f94bf65ccd414d4c0f73c7e75f1bee9a7055d964c477b
+Section: Tinh chỉnh Việt hoá
+Priority: optional
+Homepage: mt-jailbreak.github.io/repo
+Description: Thêm cài đặt và nút chuyển đổi cho Trung tâm điều khiển
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+Author: Olivier Crespo
+Dev: olycreba
+Icon: file:///Library/PreferenceBundles/XBCCModules.bundle/XBCCModules@2x.png
+Name: XB-CCModules VH
+
+Package: mt-jailbreak.powerselectorios11to14
+Version: 1.3.7
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Pre-Depends: firmware (>= 11.0)
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.ichitaso.powerselector, com.dpkgdan.powertap, com.weesstt.powerdownoptions, com.subdiox.powertap2, com.rustybalboa.powertapxi
+Replaces: com.ichitaso.powerselector11
+Filename: debs/PowerSelector.deb
+Size: 344390
+MD5sum: 0367baa32ab1bb23b5bdd2054465b47e
+SHA1: 304d0abe96dae62a69268a22160be0307bfdd920
+SHA256: e4c6bfa1433ae17cdb921599fd79d4e34c985378c7b280a6d63c77a8e9813427
+Section: Tweaks
+Description: Danh sách nguồn nâng cao cho Trung tâm điều khiển
+Tag: purpose::extension, compatible_min::ios11.0, compatible_max::ios16.3
+Author: ichitaso
+Icon: file:///Library/PreferenceBundles/PowerSelectorSettings.bundle/icon@3x.png
+Name: PowerSelector (iOS 11 to 16)
+
+Package: mt-jailbreak.newterm2
+Version: 2.5
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.16), bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8
+Conflicts: ws.hbang.newterm, com.lint.ntarrows
+Replaces: ws.hbang.newterm, com.lint.ntarrows
+Filename: debs/NewTerm2.deb
+Size: 5200654
+MD5sum: 7c7556640d5d1f48c1ae2583a39655bf
+SHA1: 674cb985bff3dd206485eeaf8a100c52c2d582a7
+SHA256: 29e1341298d198bd6ea38625b3f8ebb3324b119a409e3e3b38cf16c93813079b
+Section: Tinh chỉnh Việt hoá
+Description: Một ứng dụng đầu cuối mạnh mẽ dành cho iOS 10-14
+Tag: compatible_min::ios10.0
+Author: HASHBANG Productions
+Icon: file:///Applications/NewTerm.app/AppIcon60x60@3x.png
+Name: NewTerm 2 VH
+
+Package: mt-jailbreak.powercuff
+Version: 0.1.1
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.opa334.altlist
+Filename: debs/PowerCuff.deb
+Size: 34846
+MD5sum: c7c966f948de3e8726cad6323edfc049
+SHA1: d48a2bbe0a61e67dd2a8bace36614cf7e52f41b6
+SHA256: 38f177a0a1abc40a527418a046ddde9db0a734db949d02c7a256efff306f52b1
+Section: Tinh chỉnh Việt hoá
+Homepage: mt-jailbreak.github.io/repo
+Description: Chọn các trạng thái thiết bị bổ sung công suất thấp
+Tag: purpose::extension
+Icon: file:///Library/PreferenceBundles/PowercuffPref.bundle/Powercuff@3x.png
+Name: PowerCuff VH
+
+Package: mt-jailbreak.killallapps
+Version: 3.3.0
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Depends: mobilesubstrate, preferenceloader, applist, mt-jailbreak.libhdev (>= 4.6.0), firmware (>= 12)
+Filename: debs/KillAllApps.deb
+Size: 62794
+MD5sum: 808b35e1b47e815ae79ac1c4c361270a
+SHA1: a2fc35fcbd9d7207df243b90bce961a49b98d9d4
+SHA256: a8627f7c7d18426aede94523a96c42e175bf05e36a378b4bc6f3f9df38344dc9
+Section: Tinh chỉnh Việt hoá
+Description: Vuốt xuống trong bộ chuyển đổi ứng dụng để đóng tất cả các ứng dụng nền với đa nhiệm kiểu iPad
+Author: Hao Nguyen
+Icon: file:///Library/PreferenceBundles/KAAPref.bundle/icon@2x.png
+Name: Kill All Apps VH
+
 Package: mt-jailbreak.libdundas
 Version: 1.0.3
 Architecture: iphoneos-arm
 Maintainer: Minh Tuấn Repo
 Installed-Size: 332
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: debians/Libdundas.deb
+Filename: debs/Libdundas.deb
 Size: 69776
 MD5sum: 0ec24b63f6a7650797b4e8136f9e00dd
 SHA1: f58208c408520fefc91a2a3ef39f145581b81ba0
@@ -462,7 +437,7 @@ Architecture: iphoneos-arm
 Maintainer: Minh Tuấn Repo
 Installed-Size: 316
 Depends: mobilesubstrate, preferenceloader, firmware (>= 12)
-Filename: debians/Libhdev.deb
+Filename: debs/Libhdev.deb
 Size: 76724
 MD5sum: 6af975ec432f31b39608e9f9e39706bc
 SHA1: e5e953261c75771c4b0403c4bfdc254676c9aaef
@@ -473,102 +448,82 @@ Tag: role::developer
 Author: Hao Nguyen
 Name: libhdev
 
-Package: mt-jailbreak.lower
-Version: 1.6
+Package: mt-jailbreak.willow
+Version: 1.2.14
 Architecture: iphoneos-arm
 Maintainer: Minh Tuấn Repo
-Depends: mobilesubstrate, firmware (>=11.0)
-Filename: debians/Lower.deb
-Size: 38860
-MD5sum: 77454f7b62bd59c929b49f407b3eb842
-SHA1: 78e872a15943bb28b7936395a3326058fa8584aa
-SHA256: 6c000b6f1f5a483d447adb663b84daddefceb58c5af95e385c0c3d2c1f399d44
-Section: Tinh chỉnh Việt hoá
-Description: Thay đổi chiều cao thông báo và trình phát nhạc.
-Author: s1ris
-Icon: file:///Library/PreferenceBundles/LowerSettings.bundle/Lower@3x.png
-Name: Lower VH
-
-Package: mt-jailbreak.newterm2
-Version: 2.5
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.16), bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8
-Conflicts: ws.hbang.newterm, com.lint.ntarrows
-Replaces: ws.hbang.newterm, com.lint.ntarrows
-Filename: debians/NewTerm2.deb
-Size: 5200654
-MD5sum: 7c7556640d5d1f48c1ae2583a39655bf
-SHA1: 674cb985bff3dd206485eeaf8a100c52c2d582a7
-SHA256: 29e1341298d198bd6ea38625b3f8ebb3324b119a409e3e3b38cf16c93813079b
-Section: Tinh chỉnh Việt hoá
-Description: Một ứng dụng đầu cuối mạnh mẽ dành cho iOS 10-14
-Tag: compatible_min::ios10.0
-Author: HASHBANG Productions
-Icon: file:///Applications/NewTerm.app/AppIcon60x60@3x.png
-Name: NewTerm 2 VH
-
-Package: mt-jailbreak.nicebarx
-Version: 3.1
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Installed-Size: 11544
-Depends: com.rpetrich.rocketbootstrap,mobilesubstrate
-Filename: debians/NiceBarX.deb
-Size: 3043004
-MD5sum: abb6d1b1c284eb3370e9c1e061ddfd9c
-SHA1: ad947652939e808629d2a8ab64b1f692e39c93d1
-SHA256: da39b4d4481f1ae5260af77fbb3c44062c99488b056cb04bd367ca5953a28da5
-Section: Tinh chỉnh Việt hoá
-Homepage: https://repo.niceios.com/
-Description: Thanh trạng thái dành cho thiết bị giả iPhone X (Miễn phí cho iOS 11-12)
-Author: niceios
-Icon: file:///Library/PreferenceBundles/nicebarxbundle.bundle/icon.png
-Name: NiceBarX VH
-
-Package: mt-jailbreak.powercuff
-Version: 0.1.1
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.opa334.altlist
-Filename: debians/PowerCuff.deb
-Size: 34846
-MD5sum: c7c966f948de3e8726cad6323edfc049
-SHA1: d48a2bbe0a61e67dd2a8bace36614cf7e52f41b6
-SHA256: 38f177a0a1abc40a527418a046ddde9db0a734db949d02c7a256efff306f52b1
-Section: Tinh chỉnh Việt hoá
-Homepage: mt-jailbreak.github.io/repo
-Description: Chọn các trạng thái thiết bị bổ sung công suất thấp
-Tag: purpose::extension
-Icon: file:///Library/PreferenceBundles/PowercuffPref.bundle/Powercuff@3x.png
-Name: PowerCuff VH
-
-Package: mt-jailbreak.powerselectorios11to14
-Version: 1.3.7
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Pre-Depends: firmware (>= 11.0)
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.ichitaso.powerselector, com.dpkgdan.powertap, com.weesstt.powerdownoptions, com.subdiox.powertap2, com.rustybalboa.powertapxi
-Replaces: com.ichitaso.powerselector11
-Filename: debians/PowerSelector.deb
-Size: 344390
-MD5sum: 0367baa32ab1bb23b5bdd2054465b47e
-SHA1: 304d0abe96dae62a69268a22160be0307bfdd920
-SHA256: e4c6bfa1433ae17cdb921599fd79d4e34c985378c7b280a6d63c77a8e9813427
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader, mt-jailbreak.libdundas
+Conflicts: com.ruler225.videohud, com.spark.melior, net.midkin.smartvolumecontrol2, es.ubikstyl.sonus12, me.nepeta.brokenhud, me.nepeta.flashyhud, hi.my.name.is.ubik.sonus13, com.ikilledappl3.switchhud, com.muirey03.13hud, com.kingpuffdaddi.ringer13
+Filename: debs/UltraSound.deb
+Size: 331298
+MD5sum: e966dbbb3857aabc45ba23c03d625759
+SHA1: 83d94cda885fdd1f12cb159f0f99cbfba525ee9b
+SHA256: 0e88ef2f3f22de2e4f0e3d684845243a57ac996a8406a6ab9ed06e3b6c50470e
 Section: Tweaks
-Description: Danh sách nguồn nâng cao cho Trung tâm điều khiển
-Tag: purpose::extension, compatible_min::ios11.0, compatible_max::ios16.3
-Author: ichitaso
-Icon: file:///Library/PreferenceBundles/PowerSelectorSettings.bundle/icon@3x.png
-Name: PowerSelector (iOS 11 to 16)
+Description: Hiển thị âm lượng hoàn toàn mới, không phô trương và thân thiện với OLED.
+Author: Ayden Panhuyzen
+Icons: file:///Library/PreferenceBundles/UltrasoundSettings.bundle/icon@3x.png
+Name: UltraSound
+
+Package: com.laughingquoll.prefixui
+Version: 1.3.2
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Installed-Size: 204
+Depends: firmware (<< 12.0) | ws.hbang.alderis (>= 1.1), firmware (>= 12.0) | org.thebigboss.libcolorpicker, com.spark.libsparkapplist
+Filename: debs/Prefixui.deb
+Size: 41890
+MD5sum: e5fdb1b287a49ae99380ff3f0d62dca7
+SHA1: 4b5f2f9ca18a3513e14a8e412b64200b70ee64b0
+SHA256: 963d7019990362c03df21c61e69fb542826223a0e54039cae121b45d118c6d31
+Section: System
+Description: An awesome framework of some sort!
+Tag: role::developer, compatible_min::ios11.0
+Author: LaughingQuoll <me@laughingquoll.net>
+Depiction: https://chariz.com/get/prefixui
+Icon: https://chariz.com/cdn/icon/prefixui/icon@3x.png
+Name: PrefixUI
+
+Package: mt-jailbreak.keyboardplus
+Version: 2.1
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
+Filename: debs/KeyboardPlus.deb
+Size: 429686
+MD5sum: e1296bbbba9568bb6ea6c2447d2d9e92
+SHA1: b35bda26bd0c85e8e9ae4311ba36795daa796af4
+SHA256: 150cd3cc3265e4217fa988c9a315d5516f78c30e180699a40e2b3136c92cac7b
+Section: Tinh chỉnh Việt hoá
+Description: Bổ sung các tính năng cho bàn phím của bạn!
+Author: Ryan Nair
+Icon: file:///Library/PreferenceBundles/KeyboardPlus.bundle/icon@2x.png
+Name: KeyboardPlus VH
+
+Package: com.laughingquoll.prysm
+Version: 1.9.2
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Depends: mobilesubstrate, com.laughingquoll.prefixui, com.opa334.ccsupport
+Conflicts: com.laughingquoll.prysm
+Filename: debs/Prysm.deb
+Size: 1076280
+MD5sum: c71d0f86f28bda968be737f45db1ad36
+SHA1: 3ec5465307feeccad4e4fb0c9d8b9e494bc8ad3f
+SHA256: 9d807e78ed5cb3269902698cce24971afeb2af2101032ab4be9f23da67a6cee2
+Section: Tweaks
+Homepage: https://mt-jailbreak.github.io
+Description: Trung tâm điều khiển hoàn toàn mới.
+Author: LaughingQuoll
+Icon: file:///Library/PreferenceBundles/PrysmPrefs.bundle/icon@3x.png
+Name: Prysm
 
 Package: mt-jailbreak.quart
 Version: 1.4.6.1
 Architecture: iphoneos-arm
 Maintainer: Minh Tuấn Repo
 Depends: mobilesubstrate, com.laughingquoll.prefixui
-Filename: debians/Quart.deb
+Filename: debs/Quart.deb
 Size: 1162110
 MD5sum: 0b7875467737057f2d5795ef592ee188
 SHA1: 0a844781562593d4d69f2475e5af32eea7e8f299
@@ -579,6 +534,37 @@ Author: LaughingQuoll
 Icon: file:///Library/PreferenceBundles/QuartPrefs.bundle/icon@3x.png
 Name: Quart
 
+Package: com.spark.libsparkapplist
+Version: 1.1.10
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Installed-Size: 404
+Filename: debs/Libsparkapplist.deb
+Size: 55024
+MD5sum: 4bdf6ac7e13636ecc62605c758c9effe
+SHA1: d4dd6006b1567dfbbd1e453770c3d3b0c098b79f
+SHA256: 76d6c8b48cbcdafe2986ff7caca97c38e218cfa8311bc49350394cb6a833220a
+Section: System
+Description: AppList alternative
+Tag: role::developer
+Author: Spark
+Name: libSparkAppList
+
+Package: mt-jailbreak.fbads
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Biện Văn Nhật
+Depends: mobilesubstrate
+Filename: debs/FbNoAds.deb
+Size: 11958
+MD5sum: a2d3be7f41aa36ebd894dc1cb7388d25
+SHA1: 1bd4c87a2f32c074d71d5412fd9349ff4f439bda
+SHA256: d0bf3736b6a91d0ed94f80b4286a3fc20439fa939a2ee7152d93f45ceeb9424e
+Section: Tweaks
+Description: Xoá tất cả mọi quảng cáo Facebook
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: Chặn Quảng Cáo Facebook
+
 Package: mt-jailbreak.quickwifi11
 Version: 1.1-6
 Architecture: iphoneos-arm
@@ -587,7 +573,7 @@ Installed-Size: 226
 Pre-Depends: firmware (>= 11.0)
 Depends: com.opa334.ccsupport, mobilesubstrate
 Conflicts: com.bensge.wipi, com.ichitaso.quickwifi
-Filename: debians/QuickWifi.deb
+Filename: debs/QuickWifi.deb
 Size: 39868
 MD5sum: c97fce9bf3aada3df5ceda0c694eb2da
 SHA1: 762114e31e26054d5e3a1699f32a742f1b6ded3c
@@ -600,97 +586,112 @@ Dev: ichitaso
 Icon: file:///Library/ControlCenter/Bundles/QuickWiFiCC.bundle/SettingsIcon@2x.png
 Name: QuickWiFi
 
-Package: mt-jailbreak.shuffle
-Version: 1.7
+Package: mt-jailbreak.ccmodules
+Version: 1.5-2
 Architecture: iphoneos-arm
 Maintainer: Minh Tuấn Repo
-Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
-Depends: com.creaturecoding.libcspreferences
-Conflicts: com.cpdigitaldarkroom.placeholder
-Replaces: com.cpdigitaldarkroom.placeholder
-Filename: debians/Shuffle.deb
-Size: 599106
-MD5sum: 6658d442beb19ab74540ab7b9830fef0
-SHA1: fa74091e02248e73c49f6aeb9f0e7ed7a48ec7f4
-SHA256: a5c1d9da72f5d911970209edf923c2dcf5521505ac8fff9039214a237576ff03
-Section: Tinh chỉnh Việt hoá
-Description: Sắp xếp cài đặt của bạn
-Author: CreatureSurvive <support@creaturecoding.com>
-Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
-Name: Shuffle VH
-Tags: compatible_min::ios10, compatible_max::ios15
+Filename: debs/CCModules.deb
+Size: 1497874
+MD5sum: f086d40a687fd8f55bc38cd5fe93344c
+SHA1: a3a903689e156b74c557f5bc24c01eddec615957
+SHA256: 54202bfface3b45d3edd6d87973b1e639951e39ba922dc136244535dc6168f98
+Section: Trung tâm điều khiển
+Description: Thêm Mô-đun cho trung tâm điều khiển cho iOS 11-15.
+Author: jailbreak365
+Icon: file:///Applications/Cydia.app/Sections/Addons.png
+Name: CCModules VH
 
-Package: mt-jailbreak.spotlightless11
-Version: 1.1.7
+Package: mt-jailbreak.folderautoclose10
+Version: 12.0
 Architecture: iphoneos-arm
 Maintainer: Minh Tuấn Repo
-Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
-Filename: debians/Spotlightless11.deb
-Size: 82574
-MD5sum: e569616471effeed8e2a207f8f38e7a0
-SHA1: 7fe0a51c5a651ed883ac9fba7787f77017523ac8
-SHA256: f635df8b523dd5259828fe8564805f124e01528ecc06c57733aea35136aaa9de
-Section: Tinh chỉnh Việt hoá
-Priority: optional
-Homepage: http://mt-jailbreak.github.io/repo
-Description: Loại bỏ Spotlight trên iOS 10 đến 16!
-Tag: purpose::extension
-Author: CydiaGeek
-Dev: lucaluca86
-Icon: file:///Library/PreferenceBundles/Spotlightless11.bundle/Spotlightless11@2x.png
-Name: Spotlightless11 VH
-
-Package: mt-jailbreak.swipeformore
-Version: 1.1.11
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
-Filename: debians/SwipeForMore.deb
-Size: 34332
-MD5sum: f2bd4dda041cb5146890d1e645b66781
-SHA1: 3330e1e9561f783c151f94f51d09884e75e2e8e7
-SHA256: e57e89455cb3f2caeeef4df3327db48eb4a0fe65e50c70111a8f99a3f5291d7c
-Section: Tinh chỉnh Việt hoá
-Homepage: https://mt-jailbreak.githud.io/repo
-Description: Quản lý gói Cydia bằng cử chỉ vuốt
-Author: PoomSmart
-Icon: file:///Library/PreferenceLoader/Preferences/SwipeForMore/SFM@3x.png
-Name: SwipeForMore VH
-
-Package: mt-jailbreak.willow
-Version: 1.2.14
-Architecture: iphoneos-arm
-Maintainer: Minh Tuấn Repo
-Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader, mt-jailbreak.libdundas
-Conflicts: com.ruler225.videohud, com.spark.melior, net.midkin.smartvolumecontrol2, es.ubikstyl.sonus12, me.nepeta.brokenhud, me.nepeta.flashyhud, hi.my.name.is.ubik.sonus13, com.ikilledappl3.switchhud, com.muirey03.13hud, com.kingpuffdaddi.ringer13
-Filename: debians/UltraSound.deb
-Size: 331298
-MD5sum: e966dbbb3857aabc45ba23c03d625759
-SHA1: 83d94cda885fdd1f12cb159f0f99cbfba525ee9b
-SHA256: 0e88ef2f3f22de2e4f0e3d684845243a57ac996a8406a6ab9ed06e3b6c50470e
+Installed-Size: 99
+Depends: mobilesubstrate, firmware (>= 10.0)
+Filename: debs/FolderAutoClose.deb
+Size: 4752
+MD5sum: 8dbf70b54f4f0dbf19c587f39578dba1
+SHA1: 04d4eaea73c2fd2f0f9c7348f350b32eef32bcc1
+SHA256: edbea3af0dd66718bb8b0fbbd529a13cc3458c27d2cc2dc1b68b230cbf982146
 Section: Tweaks
-Description: Hiển thị âm lượng hoàn toàn mới, không phô trương và thân thiện với OLED.
-Author: Ayden Panhuyzen
-Icons: file:///Library/PreferenceBundles/UltrasoundSettings.bundle/icon@3x.png
-Name: UltraSound
+Priority: optional
+Description: Tự động đóng thư mục sau khi mở ứng dụng.
+Tag: purpose::extension, compatible::ios10, compatible::ios11, compatible::ios12
+Author: yuripeyamashita <yuripe.dev@gmail.com>
+Dev: yuripeyamashita
+Name: FolderAutoClose
 
-Package: mt-jailbreak.xb-ccmodules
-Version: 2.2
+Package: jp.soh.reprovision
+Version: 0.9.0
 Architecture: iphoneos-arm
 Maintainer: Minh Tuấn Repo
-Depends: firmware (>= 11), mobilesubstrate, com.opa334.ccsupport, preferenceloader, org.thebigboss.libcolorpicker
-Filename: debians/XB-CCModules.deb
-Size: 1073024
-MD5sum: b83220e7a8ee411540b24b19f634bda7
-SHA1: be582131877fe7a554eb4e3e940843e7b05be2c2
-SHA256: 63f4201c64bde1d9935f94bf65ccd414d4c0f73c7e75f1bee9a7055d964c477b
-Section: Tinh chỉnh Việt hoá
+Depends: firmware (>= 9.0)
+Conflicts: com.matchstic.reprovision
+Filename: debs/ReProvissionR.deb
+Size: 16789240
+MD5sum: d62d4f3dc89bc55aab313470eae80a68
+SHA1: 4a4c03ee793657990f614edc92794a43927bcd23
+SHA256: fd30ae89ed027c3073ffc30e7a43b8bb343e422a90c0151225912c05c9d267ae
+Section: Tweaks
 Priority: optional
-Homepage: mt-jailbreak.github.io/repo
-Description: Thêm cài đặt và nút chuyển đổi cho Trung tâm điều khiển
-Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
-Author: Olivier Crespo
-Dev: olycreba
-Icon: file:///Library/PreferenceBundles/XBCCModules.bundle/XBCCModules@2x.png
-Name: XB-CCModules VH
+Description: Đăng ký lại các ứng dụng trên thiết bị của bạn
+Author: Soh Satoh, Matt Clarke
+Dev: Matt Clarke
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: ReProvision Reborn
+
+Package: com.ichitaso.quickcc
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Installed-Size: 409
+Depends: firmware (>= 11.0), firmware (<< 13.0), mobilesubstrate, preferenceloader (>= 2.2.4~beta1)
+Filename: debs/QuickCC.deb
+Size: 88438
+MD5sum: c32b8e93c4455665a37ec570c64134ac
+SHA1: d57aded4508230bba6d28a54ebb06cbf7b71bf55
+SHA256: dc7e32f069df89d2a9ee31ca24671adf0a9c82c5909b0867d0ff16ddff25393a
+Section: Trung tâm điều khiển
+Description: Chuyển đổi Wifi và Bluetooth nhanh chóng trong Trung tâm điều khiển
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Author: ichitaso <willfeeltips+qcc@gmail.com>
+Dev: ichitaso
+Icon: file:///Library/PreferenceBundles/QuickCCSettings.bundle/icon@3x.png
+Name: QuickCC
+
+Package: mt-jailbeak.filza
+Version: 4.0.1-2
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Installed-Size: 34948
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
+Filename: debs/Filza.deb
+Size: 13940128
+MD5sum: f245aa8df66a482e6bf2f478c6e016af
+SHA1: 2a4c53c302044cea49a6e1be0fdb49859135614a
+SHA256: d370951efa01033929b3dff4e985275f333402aa6e5cbd27bf0aa3a8566efa75
+Section: Tinh chỉnh Việt hoá
+Description: Trình quản lý tệp cho iPhone, iPad, iPod Touch. Hỗ trợ iOS 7+
+Author: TIGI Software
+Icon: file:///Applications/Filza.app/AppIcon60x60@3x.png
+Name: Filza File Manager VH
+
+Package: mt-jailbreak.icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm
+Maintainer: Minh Tuấn Repo
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/iCleanerPro.deb
+Size: 2155986
+MD5sum: e0a73f0be19c86777ded37ee30b75ef8
+SHA1: 876a8d02dfdbfe6521a4ccfe3e9360c1dbb28248
+SHA256: 8439f4c50a8a00ede97a576359ee5afafb8c57989e0ab620d05aab22a0db6266
+Section: Tinh chỉnh Việt hoá
+Description: Trình dọn dẹp và tối ưu hóa hệ thống iOS tốt nhất.
+Author: Ivano Bilenchi
+Icon: file:///Applications/iCleaner.app/Icon-60@2x.png
+Name: iCleaner Pro VH
+
 
